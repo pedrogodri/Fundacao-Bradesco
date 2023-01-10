@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body {
+    background: var(--bg);
+}
+
+ul {
+    font-family: helvética;
+}
+
+li {
+    list-style: circle;
+}
+
+.lista {
+    list-style: square;
+}
+
+.tema-claro {
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+.tema-escuro {
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
